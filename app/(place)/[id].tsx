@@ -33,7 +33,7 @@ export default function PlaceDetails() {
           amount={placeDetails.reviews.amount}
         />
 
-        <AvailableSports />
+        <AvailableSports sports={placeDetails.sports} />
       </View>
     </SafeAreaView>
   );
